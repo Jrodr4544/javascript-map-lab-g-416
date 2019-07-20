@@ -30,4 +30,6 @@ const sortedRobots = robots.map( robot => {
   })
 })
 
-const coloredZebraStripes = zebraStripes.map()
+const coloredZebraStripes = zebraStripes.map( zebraStripe => {
+  
+})
