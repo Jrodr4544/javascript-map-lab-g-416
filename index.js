@@ -28,5 +28,5 @@ const sortedRobots = robots.map(function(robot){
        name: robot.name,
        alliance: knownDecepticons.includes(robot.name) ? 'decepticon' : 'autobot'
   })
-
 })
+
