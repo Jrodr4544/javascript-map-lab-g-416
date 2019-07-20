@@ -31,5 +31,7 @@ const sortedRobots = robots.map( robot => {
 })
 
 const coloredZebraStripes = zebraStripes.map( (zebraStripe, index) => {
-  
+  return Object.assign(zebraStripe, {
+    
+  })
 })
