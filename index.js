@@ -22,7 +22,7 @@ const zebraStripes = [
   { width: 7.31, color: null }
 ];
 
-const sortedRobots = robots.map(function(robot){
+const sortedRobots = robots.map(robot => {
   let results = {};
   return Object.assign(results, robot, {
        name: robot.name,
@@ -30,3 +30,4 @@ const sortedRobots = robots.map(function(robot){
   })
 })
 
+const coloredZebraStripes = zebraStripes.map()
