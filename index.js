@@ -33,6 +33,6 @@ const sortedRobots = robots.map( robot => {
 const coloredZebraStripes = zebraStripes.map( (zebraStripe, index) => {
   let isEven = ((index + 1) % 2) == 0
   return Object.assign(zebraStripe, {
-    
+    color: isEven ? 'black' : 'white'
   })
 })
